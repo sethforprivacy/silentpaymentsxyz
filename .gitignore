@@ -8,3 +8,6 @@
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Hugo lockfile
+.hugo_build.lock
