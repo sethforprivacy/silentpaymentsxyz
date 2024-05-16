@@ -1,7 +1,7 @@
 ---
 title: Comparing Proposals
 weight: 10
-prev: /docs/explained
+prev: /docs/developers
 next: /docs/comparing-proposals/bip47
 sidebar:
   open: false
