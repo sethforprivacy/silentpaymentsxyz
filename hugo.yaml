@@ -1,0 +1,115 @@
+baseURL: https://silentpayments.xyz/
+languageCode: en-us
+title: SilentPayments.xyz
+theme: hextra
+
+enableRobotsTXT: true
+enableGitInfo: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    title: Hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - identifier: documentation
+      name: Documentation
+      pageRef: /docs
+      weight: 1
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/sethforprivacy/silentpaymentsxyz"
+      params:
+        icon: github
+
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "/about"
+      weight: 2
+    - identifier: bip
+      name: "Silent Payments BIP ↗"
+      url: "https://bips.dev/352/"
+      weight: 3
+
+params:
+  description: A simple site detailing Silent Payments, their value, their usage, and their current wallet support.
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      # width: 40
+      # height: 20
+      # link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayPoweredBy: true
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: true
+    base: "https://github.com/sethforprivacy/silentpaymentsxyz/edit/main/content"
+
+  comments:
+    enable: false
+    type: giscus
