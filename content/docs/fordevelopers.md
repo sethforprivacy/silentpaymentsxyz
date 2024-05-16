@@ -9,7 +9,10 @@ For the developers among you, this page is a simple page to point you in the rig
 ## Wallet libraries
 
 - [cygnet3/rust-silentpayments](https://github.com/cygnet3/rust-silentpayments)
+  - A Rust library for Silent Payments.
   - Warning: both this crate and BIP352 are still quite new. Review this library carefully before using it with mainnet funds.
+- [Overtorment/SilentPayments](https://github.com/Overtorment/SilentPayments)
+  - A TypeScript library for Silent Payments.
 
 ## Scanning back-ends
 
