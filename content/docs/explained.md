@@ -1,7 +1,7 @@
 ---
 title: Silent Payments, Explained
 weight: 1
-next: /docs/walletsupport
+next: /docs/wallets
 prev: /docs
 ---
 

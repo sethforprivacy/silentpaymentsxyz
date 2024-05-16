@@ -1,7 +1,7 @@
 ---
 title: Silent Payments Wallet Support
 weight: 2
-next: /docs/fordevelopers
+next: /docs/developers
 prev: /docs/explained
 ---
 
