@@ -31,5 +31,7 @@ When Bob wants to check for received funds, he monitors his notification address
 
 - Worse sender privacy
   - Senders in the widely used form of BIP 47 are required to send a notification transaction on-chain to a static, publicly known on-chain address of the recipient. This notification transaction makes scanning easier, but also leaks immense amounts of data and makes it publicly visible when someone is signaling that they will pay a specific BIP 47 reusable payment code.
+  - As each subsequent send after notification matches the derivation path of a specific notification transaction, the recipient can easily connect all payments back to a single payee.
+  - Sender privacy is also harmed as the sender's payment code is included in the notification transaction, which while useful for refunds it also links their payment code with the person they're paying. If the sender ever publishes this payment code and ties it to their identity or nym and the recipient's wallet is compromised or they are a bad actor, it can reveal all of their on-chain BIP 47 payment code activity retroactively.
 - Worse on-chain efficiency
   - As a notification transaction is required before the first financial transaction, sending a BIP 47 payment ultimately requires a minimum of two on-chain transactions (and thus fees). While subsequent payments to the same payment code do not require new notification transactions, this initial burden makes them inefficient for one-off payments.

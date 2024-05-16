@@ -11,7 +11,7 @@ In March of 2022 Ruben Somsen proposed “[Silent Payments](https://gist.github.
 
 When Alice goes to send funds to Bob, she takes three keys and creates a unique one-time address that only Bob controls the keys to. These three keys are the (1) public key of the output(s) Alice wants to send to Bob, (2) Bob’s public key in his reusable payment code, and (3) a shared secret (generated using the Silent Payment public key and the user's UTXO private key using [ECDH](https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman)) that only Alice and Bob can know. These three keys combine into a unique one-time Taproot address that Bob can then validate and spend from, allowing Alice to generate practically infinite addresses without any communication with Bob. The resulting unique, one-time Taproot address makes the payment appear exactly like any other Taproot payment on-chain, thereby preventing an outside observer from even knowing Silent Payments were used at all, much less link payments to a specific Silent Payment address.
 
-When Bob wants to check for received funds, he takes (1) the private scanning key from his payment code and (2) the aggregated key across the inputs of every potential Silent Payments transaction on-chain and checks to see if the combination matches an output in a transaction. If it matches, that output is owned by his private key and he can spend it at will, and if it doesn’t match he simply ignores that transaction and continues scanning.
+When Bob wants to check for received funds, he looks on chain for a potential Silent Payments transaction, builds an aggregated key of all its inputs, and combines it with the private scanning key of his payment code. If the combination matches an output of that transaction, he can spend it. If not, he can ignore that transaction and move on to the next, until he has scanned the entire set of potential Silent Payment UTXOs.
 
 ![An example testnet Silent Payment transaction. Note that it looks like any other standard Taproot transaction](spexample.png)
 
@@ -35,7 +35,13 @@ Because Bob cannot pre-generate addresses with silent payments, he needs to keep
 
 The key difference with Silent Payment scanning is that instead of pre-generating a large amount of addresses up front like with a standard BIP 32 light client, Silent Payments requires the wallet to download 33 bytes of data per potential output and then perform an ECDH calculation to check if it is owned by the user. The major benefit to this approach is that it provides excellent privacy (even for light wallets) as the wallet back-end does not know what outputs belong to any light client.
 
-Thankfully, there are many brilliant people working on reducing the impact of this tradeoff through things like transaction cut-through, Silent Payments-specific indexes in Bitcoin Core, and much more.
+Even though this may sound like a major hit to user experience, thankfully we can already drastically improve sync performance by ruling out potential outputs like:
+
+1. Non-Taproot outputs
+2. Taproot dust outputs <=1000sats (~85% of Taproot outputs right now)
+3. All potential Silent Payments outputs spent since you last scanned
+
+Additionally, there are many brilliant people working on reducing the impact of this tradeoff through things like transaction cut-through, [Silent Payments-specific indexes in Bitcoin Core](https://github.com/bitcoin/bitcoin/pull/28241#), and much more.
 
 ## Further reading
 
