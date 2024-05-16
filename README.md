@@ -20,7 +20,7 @@ git submodule init
 ```
 
 4. Make your changes as you see fit
-5. Test your changes using Hugo
+5. Test your changes using Hugo (the output of this command will tell you where to connect to the dev site, usually http://localhost:1313/)
 
 ```bash
 hugo server --buildDrafts --disableFastRender
