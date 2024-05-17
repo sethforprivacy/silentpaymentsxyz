@@ -1,5 +1,6 @@
 ---
 title: "BIP 47: Reusable Payment Codes"
+summary: The first proposal to build on the work of Peter Todd was presented in BIP 47 and ultimately became what we know today as “PayNyms.”
 weight: 1
 next: /docs/comparing-proposals/bip351
 prev: /docs/comparing-proposals

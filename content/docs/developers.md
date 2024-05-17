@@ -1,5 +1,6 @@
 ---
 title: Silent Payments For Developers
+summary: For the developers among you, this page is a simple page to point you in the right direction for where to look into for integration on both the wallet and scanning side.
 weight: 3
 prev: /docs/wallets
 next: /docs/bounties

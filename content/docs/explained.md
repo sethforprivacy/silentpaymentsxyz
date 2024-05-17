@@ -1,5 +1,6 @@
 ---
 title: Silent Payments, Explained
+summary: Silent Payments bring better UX and privacy to Bitcoin, but how do they work?
 weight: 1
 next: /docs/wallets
 prev: /docs

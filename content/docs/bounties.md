@@ -1,5 +1,6 @@
 ---
 title: Bounties
+summary: This page will track all known Silent Payment-related bounties, their amount, and basic info on completion requirements.
 weight: 4
 prev: /docs/developers
 next: /docs/comparing-proposals

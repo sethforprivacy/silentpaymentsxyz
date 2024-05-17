@@ -1,5 +1,6 @@
 ---
 title: Silent Payments Wallet Support
+summary: Keep up to date with wallet support for Silent Payments across the Bitcoin ecosystem
 weight: 2
 next: /docs/developers
 prev: /docs/explained

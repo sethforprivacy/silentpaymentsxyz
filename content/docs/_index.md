@@ -1,6 +1,7 @@
 ---
 linkTitle: "Documentation"
 title: Silent Payments tl;dr
+summary: Silent Payments allow you to create a single, static address to share with friends, use for donations, or post for tips *without sacrificing privacy*.
 ---
 
 Silent Payments allow you to create a single, static address to share with friends, use for donations, or post for tips *without sacrificing privacy*. When someone wants to send you a payment, they use the unique public key that is a part of your Silent Payment address, combine it with the public keys of the outputs they want to send and generate a unique, one-time address that looks on-chain just like any other Taproot address. The main advantages of Silent Payments are:
