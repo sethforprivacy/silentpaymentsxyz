@@ -6,7 +6,7 @@ This repo is the open source code for the website [SilentPayments.xyz](https://s
 
 If you see something that could be improved or simply want to add a new wallet to the wallet support page, you can test the change locally before PRing using the following guide:
 
-1. [Install Hugo for your operating system](https://gohugo.io/installation/)
+1. [Install Hugo (extended version) for your operating system](https://gohugo.io/installation/)
 2. Clone this repository
 
 ```bash
@@ -16,7 +16,7 @@ git clone https://github.com/sethforprivacy/silentpaymentsxyz.git
 3. Initialize the theme submodule
 
 ```bash
-git submodule init
+git submodule update --init
 ```
 
 4. Make your changes as you see fit
