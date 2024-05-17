@@ -48,6 +48,7 @@ Additionally, there are many brilliant people working on reducing the impact of 
 Want to do a deeper dive into Silent Payments? Read on below for more resources:
 
 - [Silent Payments Bitcoin Improvement Proposal - 352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
+- ["Silent Payments: What Are They & How Do They Work?" - Athena Alpha](https://www.athena-alpha.com/silent-payments/)
 - ["Silent Payments Make Bitcoin More Privacy" - Bitcoin Magazine](https://bitcoinmagazine.com/technical/silent-payments-make-bitcoin-more-private)
 - [Bitcoin, Explained Ep. 58 - Silent Payments](https://www.youtube.com/watch?v=42PMLaz7Avk&t=20s)
 - ["Making sense of stealth addresses" - Foundation.xyz](https://foundation.xyz/2023/02/making-sense-of-stealth-addresses/)
