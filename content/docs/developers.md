@@ -16,12 +16,12 @@ For the developers among you, this page is a simple page to point you in the rig
 - [cygnet3/rust-silentpayments](https://github.com/cygnet3/rust-silentpayments)
   - A Rust library for Silent Payments.
   - Warning: both this crate and BIP352 are still quite new. Review this library carefully before using it with mainnet funds.
-- [Overtorment/SilentPayments](https://github.com/Overtorment/SilentPayments)
-  - A TypeScript library for Silent Payments.
+- [BlueWallet/SilentPayments](https://github.com/BlueWallet/SilentPayments)
+  - A TypeScript library for Silent Payments, built for Blue Wallet.
 - [cake-tech/bitcoin_base](https://github.com/cake-tech/bitcoin_base/tree/cake-update-v3)
-  - Dart library for flutter applications with full support for silent payments and tests included.
+  - Dart library for flutter applications with full support for silent payments and tests included, built for Cake Wallet.
 - [cake-tech/sp_scanner](https://github.com/cake-tech/sp_scanner/tree/sp_v1.0.0)
-  - Dart package which calls rust FFI for faster ECDH scanning.
+  - Dart package which calls rust FFI for faster ECDH scanning, built for Cake Wallet.
 
 ## Scanning back-ends
 
