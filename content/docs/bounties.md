@@ -12,7 +12,7 @@ This page will track all known Silent Payment-related bounties, their amount, an
 
 ## Library implementation bounties
 
-{{% details title="Implement sending to Silent Payment addresses in BDK - **0.0087 BTC**" closed="true" %}}
+{{% details title="Implement sending to Silent Payment addresses in BDK - **0.0097 BTC**" closed="true" %}}
 
 As described in the Github issue comments, a bounty has been started by Seth For Privacy and has received contributions from many others in the community.
 
@@ -30,10 +30,11 @@ A merged pull request against the BDK repository, implementing sending to Silent
 | justRay | https://x.com/justray1111/status/1791237240389030259 | 370k sats |
 | sommerfeld | https://x.com/sommerfeld___/status/1791175492101411206 | 200k sats |
 | Ruben Waterman | https://x.com/watermaniak/status/1791217114855993677 | 100k sats |
+| Real Hal Finney | https://x.com/RealHalFinney/status/1791480570637119905 | 100k sats |
 
 ### Total payout
 
-As of 05/17/2024, the total payout for this bounty is **0.0087 BTC**.
+As of 05/17/2024, the total payout for this bounty is **0.0097 BTC**.
 
 ### Relevant links
 
