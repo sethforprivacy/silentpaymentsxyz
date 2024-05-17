@@ -44,6 +44,7 @@ layout: hextra-home
     subtitle="Silent Payments remove the need for complicated infrastructure to handle donations and payments privately. Simply post a static address and call it a day."
   >}}
   {{< hextra/feature-card
+    link="docs/wallets.md"
     icon="device-mobile"
     title="Rapidly growing wallet support"
     subtitle="Silent Payments have strong and growing support in wallets already, with more wallets adding support regularly."
