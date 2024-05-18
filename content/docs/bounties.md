@@ -12,7 +12,7 @@ This page will track all known Silent Payment-related bounties, their amount, an
 
 ## Library implementation bounties
 
-{{% details title="Implement sending to Silent Payment addresses in BDK - **0.0097 BTC**" closed="true" %}}
+{{% details title="Implement sending to Silent Payment addresses in BDK - **0.011 BTC**" closed="true" %}}
 
 As described in the Github issue comments, a bounty has been started by Seth For Privacy and has received contributions from many others in the community.
 
@@ -34,11 +34,12 @@ A merged pull request against the BDK repository, implementing sending to Silent
 
 ### Total payout
 
-As of 05/17/2024, the total payout for this bounty is **0.0097 BTC**.
+As of 05/18/2024, the total payout for this bounty is **0.011 BTC**.
 
 ### Relevant links
 
 - [Github issue requesting support](https://github.com/bitcoindevkit/bdk/issues/1114)
+- [GitHub issue for adding Silent Payment support to `rust-bitcoin`](https://github.com/rust-bitcoin/rust-bitcoin/issues/2778)
 - [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
   - This existing crate could be a useful starting point, but is not required to be used for this bounty.
 
