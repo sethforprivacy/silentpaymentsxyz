@@ -50,8 +50,8 @@ layout: hextra-home
   {{< hextra/feature-card
     link="docs/wallets"
     icon="device-mobile"
-    title="Rapidly growing wallet support"
-    subtitle="Silent Payments have strong and growing support in wallets already, with more wallets adding support regularly."
+    title="Growing wallet support"
+    subtitle="Silent Payments have strong and growing support in wallets already, with more adding support regularly."
   >}}
   {{< hextra/feature-card
     link="docs/developers"
