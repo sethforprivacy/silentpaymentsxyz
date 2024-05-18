@@ -52,4 +52,4 @@ Want to do a deeper dive into Silent Payments? Read on below for more resources:
 - ["Silent Payments Make Bitcoin More Privacy" - Bitcoin Magazine](https://bitcoinmagazine.com/technical/silent-payments-make-bitcoin-more-private)
 - [Bitcoin, Explained Ep. 58 - Silent Payments](https://www.youtube.com/watch?v=42PMLaz7Avk&t=20s)
 - ["Making sense of stealth addresses" - Foundation.xyz](https://foundation.xyz/2023/02/making-sense-of-stealth-addresses/)
-- [Silent Payments - Bitcoin Optech](https://bitcoinops.org/en/topics/silent-payments/?
+- [Silent Payments - Bitcoin Optech](https://bitcoinops.org/en/topics/silent-payments/)
