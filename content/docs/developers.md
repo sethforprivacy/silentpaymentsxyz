@@ -23,6 +23,8 @@ For the developers among you, this page is a simple page to point you in the rig
   - Dart library for flutter applications with full support for silent payments and tests included, built for Cake Wallet.
 - [cake-tech/sp_scanner](https://github.com/cake-tech/sp_scanner/tree/sp_v1.0.0)
   - Dart package which calls rust FFI for faster ECDH scanning, built for Cake Wallet.
+- [setavenger/go-bip352](https://github.com/setavenger/go-bip352)
+  - A go package that handles the core computations surrounding Silent Payments.
 
 ## Scanning back-ends
 
