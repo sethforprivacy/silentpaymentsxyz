@@ -26,7 +26,8 @@ When Bob wants to check for received funds, he monitors his notification address
   - BIP 47 holds the unique status of being the only form of reusable payment code to actually be implemented and widely used thanks to the efforts of the Samourai Wallet team, who have implemented BIP 47 as “PayNyms.”
   - BIP 47 payment codes are leveraged in Samourai Wallet, [Sparrow Wallet](https://www.sparrowwallet.com/), and [Stack Wallet](https://stackwallet.com/) today.
 - Easier wallet scanning
-  - As a receiver is notified on-chain of what derivation path will be used for payments, he can easily pre-generate many possible addresses and check them using a standard Electrum server or BIP 158 filter. This requires less bandwidth and compute compared to Silent Payments scanning, both for the back-end and the user's wallet itself.
+  - As a receiver is notified on-chain of what derivation path will be used for payments, after receiving and validating a notification transaction he can easily pre-generate many possible addresses and check them using a standard Electrum server or BIP 158 filter for subsequent payments. This requires less bandwidth and compute compared to Silent Payments scanning, both for the back-end and the user's wallet itself.
+  - Note, however, that the same user experience can be achieved by a Silent Payment wallet by sending the scanning key for a given Silent Payment address to a remote server and having the remote server do the scanning for the user. While this does have a privacy tradeoff, it closely mirrors the user experience of BIP 47 while also giving greater privacy against outside observers thanks to the lack of public notification transaction.
 
 ## Trade-offs versus Silent Payments
 
