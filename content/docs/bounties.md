@@ -69,7 +69,7 @@ A merged pull request against the Sparrow repository, implementing sending to Si
 
 ### Completion requirements
 
-A merged pull request against whatever will be the active Samourai repository, implementing sending to Silent Payment addresses.
+A merged pull request against whatever will be the active Samourai repository at the moment of merging, implementing sending to Silent Payment addresses.
 
 ### Contributors
 
@@ -79,7 +79,7 @@ A merged pull request against whatever will be the active Samourai repository, i
 
 ### Some notes
 
-Given the recent events, some people may have concerns about this bounty, but Samourai being code is in the end nothing more than speech, ie. an idea, and what it stands for is still as true and valuable as ever, people can uphold it for a time, other people can and must uphold it if they also believe in it. We are very much aware of previous antagonisms and online flame wars especially on this issue, and this bounty is not a provocation either, we just want the idea of bitcoin privacy to keep spreading and think that this bounty makes our point.
+Given the recent events, some people may have concerns about this bounty. We are very much aware of previous antagonisms and online flame wars especially on this issue, and this bounty is not a provocation either, we just want the idea of bitcoin privacy to keep spreading and think that this bounty makes our point, that what Samourai stands for is still as true and valuable as ever, that privacy is not something that should be frowned upon, but something that is not only legitimate but necessary, and a fight we can all agree to carry on regardless of personal antagonisms. 
 
 ### Relevant links
 
