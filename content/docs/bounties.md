@@ -55,7 +55,7 @@ A merged pull request against the Sparrow repository, implementing sending to Si
 
 | Person | Amount |
 | --- | --- |
-| Anon | 1000k sats |
+| Anon | 1M sats |
 
 ### Relevant links
 
@@ -75,7 +75,7 @@ A merged pull request against whatever will be the active Samourai repository, i
 
 | Person | Amount |
 | --- | --- |
-| Anon | 1000k sats |
+| Anon | 1M sats |
 
 ### Some notes
 
@@ -98,7 +98,7 @@ A merged pull request against Electrum repository, implementing sending to Silen
 
 | Person | Amount |
 | --- | --- |
-| Anon | 1000k sats |
+| Anon | 1M sats |
 
 ### Relevant links
 
@@ -118,11 +118,11 @@ A merged pull request against BlueWallet repository, implementing sending to Sil
 
 | Person | Amount |
 | --- | --- |
-| Anon | 1000k sats |
+| Anon | 1M sats |
 
 ### Relevant links
 
-- [BlueWallet Github](https://github.com/BlueWallet/BlueWallet)
+- [BlueWallet Github](https://github.com/BlueWallet)
 - [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
   - This existing crate could be a useful starting point, but is not required to be used for this bounty.
 
