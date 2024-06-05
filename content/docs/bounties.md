@@ -44,3 +44,86 @@ As of 05/18/2024, the total payout for this bounty is **0.011 BTC**.
   - This existing crate could be a useful starting point, but is not required to be used for this bounty.
 
 {{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in Sparrow - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against the Sparrow repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [Sparrow Github](https://github.com/sparrowwallet/sparrow)
+- [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
+  - This existing crate could be a useful starting point, but is not required to be used for this bounty.
+
+{{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in Samourai - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against whatever will be the active Samourai repository at the moment of merging, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Some notes
+
+Given the recent events, some people may have concerns about this bounty. We believe in the principles that Samourai stands for: that privacy is not something to be frowned upon, that is it legitimate and necessary, and that we should fight to protect it. We hope this bounty reflects that spirit, and that we should carry on with that fight, in spite of personal antagonisms or regulatory threats.
+
+### Relevant links
+
+- [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
+  - This existing crate could be a useful starting point, but is not required to be used for this bounty.
+
+{{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in Electrum - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against Electrum repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [Electrum github](https://github.com/spesmilo/electrum)
+- [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
+  - This existing crate could be a useful starting point, but is not required to be used for this bounty.
+
+{{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in BlueWallet - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against BlueWallet repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [BlueWallet Github](https://github.com/BlueWallet)
+- [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
+  - This existing crate could be a useful starting point, but is not required to be used for this bounty.
+
+{{% /details %}}
