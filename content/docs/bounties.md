@@ -79,7 +79,7 @@ A merged pull request against whatever will be the active Samourai repository at
 
 ### Some notes
 
-Given the recent events, some people may have concerns about this bounty. We are very much aware of previous antagonisms and online flame wars especially on this issue, and this bounty is not a provocation either, we just want the idea of bitcoin privacy to keep spreading and think that this bounty makes our point, that what Samourai stands for is still as true and valuable as ever, that privacy is not something that should be frowned upon, but something that is not only legitimate but necessary, and a fight we can all agree to carry on regardless of personal antagonisms. 
+Given the recent events, some people may have concerns about this bounty. We believe in the principles that Samourai stands for: that privacy is not something to be frowned upon, that is it legitimate and necessary, and that we should fight to protect it. We hope this bounty reflects that spirit, and that we should carry on with that fight, in spite of personal antagonisms or regulatory threats.
 
 ### Relevant links
 
