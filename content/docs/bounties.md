@@ -53,9 +53,9 @@ A merged pull request against the Sparrow repository, implementing sending to Si
 
 ### Contributors
 
-| Person | Amount |
-| --- | --- |
-| Anon | 1M sats |
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
 
 ### Relevant links
 
@@ -73,9 +73,9 @@ A merged pull request against whatever will be the active Samourai repository at
 
 ### Contributors
 
-| Person | Amount |
-| --- | --- |
-| Anon | 1M sats |
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
 
 ### Some notes
 
@@ -96,9 +96,9 @@ A merged pull request against Electrum repository, implementing sending to Silen
 
 ### Contributors
 
-| Person | Amount |
-| --- | --- |
-| Anon | 1M sats |
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
 
 ### Relevant links
 
@@ -116,9 +116,9 @@ A merged pull request against BlueWallet repository, implementing sending to Sil
 
 ### Contributors
 
-| Person | Amount |
-| --- | --- |
-| Anon | 1M sats |
+| Person | Link | Amount |
+| --- | | --- | --- |
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
 
 ### Relevant links
 
