@@ -17,9 +17,9 @@ I'll do my best to keep this page up to date, but if you see something that need
 | Wallet                                 | Github                                                            | Sending                     | Receiving                   | Privacy-preserving scanning[^1] |
 |----------------------------------------|-------------------------------------------------------------------|-----------------------------|-----------------------------|-----------------------------|
 | [Cake Wallet](https://cakewallet.com)[^2]  | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} |
-| [Silentium](https://app.silentium.dev)[^3] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} |
+| [BlueWallet](https://bluewallet.io/) | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet)   | {{< icon "badge-check" >}} | {{< icon "x-circle" >}} | {{< icon "x-circle" >}} |
+| [Silentium](https://app.silentium.dev)[^2] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} |
 
 [^1]: "Privacy preserving scanning" here denotes an architecture where no output information is revealed to the back-end server. While this is the only possible back-end approach for now, it's very likely we will see future approaches that give the view key over to a back-end server to allow background sync, while sacrificing privacy of Silent Payments outputs to that third-party server. This field is a way that we can denote that in the future as-necessary.
-[^2]: Cake Wallet's Silent Payment support is currently in open beta on all platforms.
-[^3]: Silentium is a proof-of-concept and should be used with caution! From the developer:
+[^2]: Silentium is a proof-of-concept and should be used with caution! From the developer:
     > This is an experimental project acting as a proof of concept for Silent Payments light wallets. Use at your own risk.
