@@ -10,7 +10,7 @@ Bounties are a vital tool we have in the Bitcoin ecosystem to drive development 
 
 This page will track all known Silent Payment-related bounties, their amount, and basic info on completion requirements.
 
-## Wallet implementation bounties
+## Software wallet implementation bounties
 
 {{% details title="Implement sending to Silent Payment addresses in Sparrow - **0.01 BTC**" closed="true" %}}
 
@@ -27,6 +27,7 @@ A merged pull request against the Sparrow repository, implementing sending to Si
 ### Relevant links
 
 - [Sparrow Github](https://github.com/sparrowwallet/sparrow)
+- [Bounty Issue](https://github.com/sparrowwallet/sparrow/issues/1434)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
@@ -67,7 +68,68 @@ A merged pull request against Electrum repository, implementing sending to Silen
 
 ### Relevant links
 
-- [Electrum github](https://github.com/spesmilo/electrum)
+- [Electrum Github](https://github.com/spesmilo/electrum)
+- [Bounty Issue](https://github.com/spesmilo/electrum/issues/9133)
+- [Existing development resources and libraries](../developers)
+
+{{% /details %}}
+
+## Hardware wallet implementation bounties
+
+{{% details title="Implement sending to Silent Payment addresses in BitBox - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against the BitBox repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |  
+| --- | --- | --- |  
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [BitBox Github](https://github.com/BitBoxSwiss/bitbox02-firmware)
+- [WIP pull request](https://github.com/BitBoxSwiss/bitbox02-firmware/pull/1220)
+- [Existing development resources and libraries](../developers)
+
+{{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in Foundation Passport - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against the Foundation Passport repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |  
+| --- | --- | --- |  
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [Foundation Passport Github](https://github.com/Foundation-Devices/passport2)
+- [Existing development resources and libraries](../developers)
+
+{{% /details %}}
+
+{{% details title="Implement sending to Silent Payment addresses in SeedSigner - **0.01 BTC**" closed="true" %}}
+
+### Completion requirements
+
+A merged pull request against the SeedSigner repository, implementing sending to Silent Payment addresses.
+
+### Contributors
+
+| Person | Link | Amount |  
+| --- | --- | --- |  
+| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
+
+### Relevant links
+
+- [SeedSigner Github](https://github.com/SeedSigner/seedsigner/)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
