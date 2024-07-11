@@ -72,26 +72,6 @@ A merged pull request against Electrum repository, implementing sending to Silen
 
 {{% /details %}}
 
-{{% details title="Implement sending to Silent Payment addresses in BlueWallet - **0.01 BTC**" closed="true" %}}
-
-### Completion requirements
-
-A merged pull request against BlueWallet repository, implementing sending to Silent Payment addresses.
-
-### Contributors
-
-| Person | Link | Amount |
-| --- | --- | --- |
-| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
-
-### Relevant links
-
-- [BlueWallet Github](https://github.com/BlueWallet)
-- [Existing TypeScript library created by the BlueWallet team for Silent Payments support](https://github.com/BlueWallet/SilentPayments)
-- [Additional development resources and libraries](../developers)
-
-{{% /details %}}
-
 ## Library implementation bounties
 
 {{% details title="Implement sending to Silent Payment addresses in BDK - **0.011 BTC**" closed="true" %}}
