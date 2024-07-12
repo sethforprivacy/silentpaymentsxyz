@@ -92,6 +92,7 @@ A merged pull request against the BitBox repository, implementing sending to Sil
 
 - [BitBox Github](https://github.com/BitBoxSwiss/bitbox02-firmware)
 - [WIP pull request](https://github.com/BitBoxSwiss/bitbox02-firmware/pull/1220)
+- [Bounty Issue](https://github.com/BitBoxSwiss/bitbox02-firmware/issues/1251)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
@@ -111,6 +112,7 @@ A merged pull request against the Foundation Passport repository, implementing s
 ### Relevant links
 
 - [Foundation Passport Github](https://github.com/Foundation-Devices/passport2)
+- [Bounty Issue](https://github.com/Foundation-Devices/passport2/issues/527)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
@@ -130,6 +132,7 @@ A merged pull request against the SeedSigner repository, implementing sending to
 ### Relevant links
 
 - [SeedSigner Github](https://github.com/SeedSigner/seedsigner/)
+- [Bounty Issue](https://github.com/SeedSigner/seedsigner/issues/569)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
