@@ -14,11 +14,11 @@ I'll do my best to keep this page up to date, but if you see something that need
   As Silent Payments are so new, please be cautious when testing new wallets with real funds!
 {{< /callout >}}
 
-| Wallet                                 | Github                                                            | Sending                     | Receiving                   | Privacy-preserving scanning[^1] |
-|----------------------------------------|-------------------------------------------------------------------|-----------------------------|-----------------------------|-----------------------------|
-| [Cake Wallet](https://cakewallet.com)[^2]  | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} |
-| [BlueWallet](https://bluewallet.io/) | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet)   | {{< icon "badge-check" >}} | {{< icon "x-circle" >}} | {{< icon "x-circle" >}} |
-| [Silentium](https://app.silentium.dev)[^2] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} | {{< icon "badge-check" >}} |
+| Wallet                                     | Github                                                            | Sending                    | Receiving                  | Privacy-preserving scanning[^1] |
+| ------------------------------------------ | ----------------------------------------------------------------- | -------------------------- | -------------------------- | ------------------------------- |
+| [Cake Wallet](https://cakewallet.com)[^2]  | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
+| [BlueWallet](https://bluewallet.io/)       | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet) | {{< icon "check-green" >}} | {{< icon "x-red" >}}       | {{< icon "x-red" >}}            |
+| [Silentium](https://app.silentium.dev)[^2] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
 
 [^1]: "Privacy preserving scanning" here denotes an architecture where no output information is revealed to the back-end server. While this is the only possible back-end approach for now, it's very likely we will see future approaches that give the view key over to a back-end server to allow background sync, while sacrificing privacy of Silent Payments outputs to that third-party server. This field is a way that we can denote that in the future as-necessary.
 [^2]: Silentium is a proof-of-concept and should be used with caution! From the developer:
