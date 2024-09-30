@@ -32,6 +32,8 @@ For the developers among you, this page is a simple page to point you in the rig
 - [Bitshala-Incubator/silent-pay](https://github.com/Bitshala-Incubator/silent-pay)
   - "A bitcoin wallet library that supports silent payments out of the box."
   > This library is currently in an experimental stage and should be used with caution. It has not undergone extensive testing and may contain bugs, vulnerabilities, or unexpected behavior. Mainnet use is strictly NOT recommended.
+- [shakesco/silent](https://github.com/shakesco/shakesco-silent)
+  - A JavaScript SDK offering comprehensive support for silent payments, including sending, receiving, and scanning functionality. Designed for Shakespay wallet or any other wallet
 
 ## Scanning back-ends
 
