@@ -100,7 +100,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/sethforprivacy/silentpaymentsxyz/edit/main/content"
+    base: "https://github.com/sethforprivacy/silentpaymentsxyz/edit/master/content"
 
   comments:
     enable: false
