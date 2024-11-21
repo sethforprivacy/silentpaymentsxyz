@@ -49,10 +49,14 @@ menu:
       params:
         type: separator
       weight: 1
+    - identifier: bitcoin-design-site
+      name: "Bitcoin Design exploration ↗"
+      url: "https://bitcoin.design/guide/how-it-works/silent-payments/"
+      weight: 2
     - identifier: bip
       name: "Silent Payments BIP ↗"
       url: "https://bips.dev/352/"
-      weight: 2
+      weight: 1
 
 params:
   description: A simple site detailing Silent Payments, their value, their usage, and their current wallet support.
