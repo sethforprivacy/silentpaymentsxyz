@@ -11,3 +11,6 @@ hugo.linux
 
 # Hugo lockfile
 .hugo_build.lock
+
+#macos' ds store file
+.DS_Store
