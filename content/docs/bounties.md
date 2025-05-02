@@ -69,7 +69,7 @@ A merged pull request against Electrum repository, implementing sending to Silen
 ### Relevant links
 
 - [Electrum Github](https://github.com/spesmilo/electrum)
-- [Bounty Issue](https://github.com/spesmilo/electrum/issues/9133)
+- [Bounty Issue](https://github.com/spesmilo/electrum/issues/8847)
 - [Existing development resources and libraries](../developers)
 
 {{% /details %}}
