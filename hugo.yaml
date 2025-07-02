@@ -62,6 +62,14 @@ menu:
       name: "Silent Payments BIP ↗"
       url: "https://bips.dev/352/"
       weight: 1
+    - identifier: zine
+      name: "Satsie's zine ↗"
+      url: "https://satsie.dev/zines/silentpayments.html"
+      weight: 3
+    - identifier: ux zine
+      name: "Yashraj's UX zine ↗"
+      url: "https://satsie.dev/zines/collabs/yashrajsilentpaymentsux.html"
+      weight: 4
 
 params:
   description: A simple site detailing Silent Payments, their value, their usage, and their current wallet support.
