@@ -42,6 +42,11 @@ menu:
       url: "https://github.com/sethforprivacy/silentpaymentsxyz"
       params:
         icon: github
+    - name: Discord
+      weight: 4
+      url: "https://discord.gg/BExA2YGsgY"
+      params:
+        icon: discord
 
   sidebar:
     - identifier: more
