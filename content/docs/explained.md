@@ -42,7 +42,7 @@ Even though this may sound like a major hit to user experience, thankfully we ca
 2. Taproot dust outputs <=1000sats (~85% of Taproot outputs right now)
 3. All potential Silent Payments outputs spent since you last scanned
 
-Additionally, there are many brilliant people working on reducing the impact of this tradeoff through things like transaction cut-through, [Silent Payments-specific indexes in Bitcoin Core](https://github.com/bitcoin/bitcoin/pull/28241#), and much more.
+Additionally, there are many brilliant people working on reducing the impact of this tradeoff through things like transaction cut-through, [Silent Payments-specific indexes in Bitcoin Core](https://github.com/Sjors/bitcoin/pull/86), and much more.
 
 ## Further reading
 
