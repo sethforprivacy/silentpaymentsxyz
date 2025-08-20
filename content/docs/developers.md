@@ -24,7 +24,7 @@ For the developers among you, this page is a simple page to point you in the rig
 - [BlueWallet/SilentPayments](https://github.com/BlueWallet/SilentPayments)
   - A TypeScript library for Silent Payments, built for Blue Wallet.
 - [BDK SP](https://github.com/bitcoindevkit/bdk-sp)
-  - An experimental Rust crate to research the implementation of silent payment tools in BDK.
+  - An **experimental** Rust crate to research the implementation of Silent Payment tools in BDK.
 - [cake-tech/bitcoin_base](https://github.com/cake-tech/bitcoin_base/tree/cake-update-v3)
   - Dart library for flutter applications with full support for silent payments and tests included, built for Cake Wallet.
 - [cake-tech/sp_scanner](https://github.com/cake-tech/sp_scanner/tree/sp_v1.0.0)
@@ -40,7 +40,7 @@ For the developers among you, this page is a simple page to point you in the rig
 
 ## Scanning back-ends
 
-- [Silent Payments Index Server Spec](https://github.com/silent-payments/bIP0352-index-server-specification)
+- [Silent Payments Indexer Server Spec](https://github.com/silent-payments/bIP0352-index-server-specification)
 - BlindBit
   - [blindbit-oracle](https://github.com/setavenger/blindbit-oracle)
   - [blindbitd](https://github.com/setavenger/blindbitd)
@@ -51,7 +51,7 @@ For the developers among you, this page is a simple page to point you in the rig
 
 ## Additional Resources
 
-- [Silent Payments Repos](https://github.com/orgs/silent-payments/repositories)
+- [List of Silent Payments related repositories](https://github.com/orgs/silent-payments/repositories)
 - BitBox Blog
   - [Understanding Silent Payments - Part 1](https://blog.bitbox.swiss/en/understanding-silent-payments-part-one)
   - [Understanding Silent Payments - Part 2](https://blog.bitbox.swiss/en/understanding-silent-payments-part-two)
