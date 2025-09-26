@@ -69,6 +69,7 @@ A merged pull request against Electrum repository, implementing sending to Silen
 ### Relevant links
 
 - [Electrum Github](https://github.com/spesmilo/electrum)
+- [WIP PR](https://github.com/spesmilo/electrum/pull/9900)
 - [Bounty Issue](https://github.com/spesmilo/electrum/issues/8847)
 - [Existing development resources and libraries](../developers)
 
@@ -91,7 +92,7 @@ A merged pull request against the BitBox repository, implementing sending to Sil
 ### Relevant links
 
 - [BitBox Github](https://github.com/BitBoxSwiss/bitbox02-firmware)
-- [WIP pull request](https://github.com/BitBoxSwiss/bitbox02-firmware/pull/1220)
+- [Merged PR](https://github.com/BitBoxSwiss/bitbox02-firmware/pull/1220)
 - [Bounty Issue](https://github.com/BitBoxSwiss/bitbox02-firmware/issues/1251)
 - [Existing development resources and libraries](../developers)
 
@@ -167,6 +168,7 @@ As of 05/18/2024, the total payout for this bounty is **0.011 BTC**.
 
 - [Github issue requesting support](https://github.com/bitcoindevkit/bdk/issues/1114)
 - [GitHub issue for adding Silent Payment support to `rust-bitcoin`](https://github.com/rust-bitcoin/rust-bitcoin/issues/2778)
+- [WIP repo](https://github.com/bitcoindevkit/bdk-sp/tree/master/silentpayments)
 - [Existing Rust crate for Silent Payments support](https://github.com/cygnet3/rust-silentpayments)
   - This existing crate could be a useful starting point, but is not required to be used for this bounty.
 
