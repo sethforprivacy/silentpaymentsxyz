@@ -8,6 +8,8 @@ next: /docs/bounties
 
 For the developers among you, this page is a simple page to point you in the right direction for where to look into for integration on both the wallet and scanning side.
 
+*Want to contribute? Checkout the Silent Payments [Development Tracker](https://github.com/orgs/silent-payments/projects/2/views/5)*
+
 {{< callout type="info" >}}
   Please note that implementing the ability to *send* to Silent Payment addresses is the most important right now, and that Silent Payments were designed to make sending trivial!
 {{< /callout >}}
@@ -46,7 +48,8 @@ For the developers among you, this page is a simple page to point you in the rig
   - [WIP light client specification](https://github.com/setavenger/BIP0352-light-client-specification)
 - [cake-tech/electrs](https://github.com/cake-tech/electrs/tree/cake-update-v1)
   - Note that this is a WIP fork of `electrs` with optimized support for Silent Payment scanning added.
-- [louisinger/silentiumd](https://github.com/louisinger/silentiumd)
+- [frigate](https://github.com/sparrowwallet/frigate)
+  - Frigate is an experimental Electrum Server testing Silent Payments scanning with ephemeral client keys.
 
 ## Additional Resources
 
