@@ -23,6 +23,7 @@ I'll do my best to keep this page up to date, but if you see something that need
 | [BitBox](https://bitbox.swiss/) | [BitBoxSwiss/bitbox-wallet-app](https://github.com/BitBoxSwiss/bitbox-wallet-app) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
 | [Shakesco Wallet](https://shakesco.com)  | [shakesco/silent](https://github.com/shakesco/shakesco-silent)       | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
 | [Wasabi Wallet](https://wasabiwallet.io/)  | [WalletWasabi/WalletWasabi](https://github.com/WalletWasabi/WalletWasabi) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}          |
+| [Sparrow Wallet](https://sparrowwallet.com/)  | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}          |
 
 [^1]: "Privacy preserving scanning" here denotes an architecture where no output information is revealed to the back-end server. While this is the only possible back-end approach for now, it's very likely we will see future approaches that give the view key over to a back-end server to allow background sync, while sacrificing privacy of Silent Payments outputs to that third-party server. This field is a way that we can denote that in the future as-necessary.
 [^2]: Silentium is a proof-of-concept and should be used with caution! From the developer:

@@ -12,26 +12,6 @@ This page will track all known Silent Payment-related bounties, their amount, an
 
 ## Software wallet implementation bounties
 
-{{% details title="Implement sending to Silent Payment addresses in Sparrow - **0.01 BTC**" closed="true" %}}
-
-### Completion requirements
-
-A merged pull request against the Sparrow repository, implementing sending to Silent Payment addresses.
-
-### Contributors
-
-| Person | Link | Amount |  
-| --- | --- | --- |  
-| Anon | npub1ltmm708jkyca77rq3lyg50lhr6ut4zjtyzr5f3wlzu6ntzftzz0s0hjnjc | 1M sats |
-
-### Relevant links
-
-- [Sparrow Github](https://github.com/sparrowwallet/sparrow)
-- [Bounty Issue](https://github.com/sparrowwallet/sparrow/issues/1434)
-- [Existing development resources and libraries](../developers)
-
-{{% /details %}}
-
 {{% details title="Implement sending to Silent Payment addresses in Samourai - **0.01 BTC**" closed="true" %}}
 
 ### Completion requirements
