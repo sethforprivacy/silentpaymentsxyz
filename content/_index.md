@@ -10,17 +10,23 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
+<br class="sm:hx-block hx-hidden" />
+
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Silent Payments make receiving&nbsp;<br class="sm:hx-block hx-hidden" />Bitcoin easier than ever&nbsp;<br class="sm:hx-block hx-hidden" /> while preserving your privacy.
+  Silent Payments make receiving Bitcoin easier than ever while preserving your privacy.
 {{< /hextra/hero-subtitle >}}
 </div>
+
+<br class="sm:hx-block hx-hidden" />
 
 <div class="hx-mb-6">
 {{< hextra/hero-button text="Learn more" link="docs" >}}
 </div>
 
 <div class="hx-mt-6"></div>
+
+<br class="sm:hx-block hx-hidden" />
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
