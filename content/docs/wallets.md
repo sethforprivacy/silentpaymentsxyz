@@ -18,14 +18,16 @@ I'll do my best to keep this page up to date, but if you see something that need
 
 | Wallet                                     | Github                                                            | Sending                    | Receiving                  | Privacy-preserving scanning[^1] |
 | ------------------------------------------ | ----------------------------------------------------------------- | -------------------------- | -------------------------- | ------------------------------- |
-| [Cake Wallet](https://cakewallet.com)[^2]  | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
-| [BlueWallet](https://bluewallet.io/)       | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet) | {{< icon "check-green" >}} | {{< icon "x-red" >}}       | {{< icon "x-red" >}}            |
-| [Silentium](https://app.silentium.dev)[^2] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
-| [Dana Wallet](https://silentpayments.dev)  | [cygnet3/danawallet](https://github.com/cygnet3/danawallet)       | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
 | [BitBox](https://bitbox.swiss/) | [BitBoxSwiss/bitbox-wallet-app](https://github.com/BitBoxSwiss/bitbox-wallet-app) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
+| [BlindBit Desktop](https://github.com/setavenger/blindbit-desktop/releases) | [setavenger/blindbit-desktop](https://github.com/setavenger/blindbit-desktop/)   | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
+| [BlueWallet](https://bluewallet.io/)       | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet) | {{< icon "check-green" >}} | {{< icon "x-red" >}}       | {{< icon "x-red" >}}            |
+| [Cake Wallet](https://cakewallet.com)  | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
+| [Dana Wallet](https://danawallet.app)  | [cygnet3/dana](https://github.com/cygnet3/dana)       | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
+| [Nunchuk Wallet](https://nunchuk.io)  | [nunchuk-io](https://github.com/nunchuk-io)       | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}      |
 | [Shakesco Wallet](https://shakesco.com)  | [shakesco/silent](https://github.com/shakesco/shakesco-silent)       | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}}      |
-| [Wasabi Wallet](https://wasabiwallet.io/)  | [WalletWasabi/WalletWasabi](https://github.com/WalletWasabi/WalletWasabi) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}          |
 | [Sparrow Wallet](https://sparrowwallet.com/)  | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}          |
+| [Wasabi Wallet](https://wasabiwallet.io/)  | [WalletWasabi/WalletWasabi](https://github.com/WalletWasabi/WalletWasabi) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}}          |
+| [Silentium](https://app.silentium.dev) [^2] | [louisinger/silentium](https://github.com/louisinger/silentium)   | {{< icon "check-green" >}} | {{< icon "warning" >}} | -      |
 
 ## Hardware wallets
 
