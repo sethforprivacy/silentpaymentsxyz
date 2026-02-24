@@ -20,7 +20,7 @@ For the developers among you, this page is a simple page to point you in the rig
 
 ## Wallet libraries
 
-- [cygnet3/rust-silentpayments](https://github.com/cygnet3/rust-silentpayments)
+- [cygnet3/spdk](https://github.com/cygnet3/spdk)
   - A Rust library for Silent Payments.
   > Warning: both this crate and BIP352 are still quite new. Review this library carefully before using it with mainnet funds.
 - [BlueWallet/SilentPayments](https://github.com/BlueWallet/SilentPayments)
@@ -53,7 +53,10 @@ For the developers among you, this page is a simple page to point you in the rig
 
 ## Additional Resources
 
-- [List of Silent Payments related repositories](https://github.com/orgs/silent-payments/repositories)
+- Silent Payments Working Group
+  - [Discussions](https://github.com/orgs/silent-payments/discussions)
+  - [Repositories](https://github.com/orgs/silent-payments/repositories)
+  - [Development Tracker](https://github.com/orgs/silent-payments/projects/2/views/5)
 - BitBox Blog
   - [Understanding Silent Payments - Part 1](https://blog.bitbox.swiss/en/understanding-silent-payments-part-one)
   - [Understanding Silent Payments - Part 2](https://blog.bitbox.swiss/en/understanding-silent-payments-part-two)
