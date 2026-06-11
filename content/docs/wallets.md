@@ -18,6 +18,7 @@ I'll do my best to keep this page up to date, but if you see something that need
 
 | Wallet | Github | Sending | Receiving | Privacy-preserving scanning[^1] | BIP375[^3] | BIP376[^4] |
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
+| [Agora](https://agora.spot) | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 | [BitBox](https://bitbox.swiss/) | [BitBoxSwiss/bitbox-wallet-app](https://github.com/BitBoxSwiss/bitbox-wallet-app) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
 | [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/pull/32966) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "check-green" >}} | - | - |
 | [BlindBit Desktop](https://github.com/setavenger/blindbit-desktop/releases) | [setavenger/blindbit-desktop](https://github.com/setavenger/blindbit-desktop/) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
