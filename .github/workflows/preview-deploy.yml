@@ -1,0 +1,109 @@
+name: Deploy PR preview
+
+# Stage 2 of the PR preview pipeline.
+#
+# Triggered by the completion of "Build PR preview". Because workflow_run always
+# runs from the base repository's default branch, it has a trusted context with
+# write access even when the PR came from a fork. It never checks out or executes
+# the PR's code -- it only takes the already-built artifact and publishes it to
+# the gh-pages branch under pr-preview/pr-<N>/.
+
+on:
+  workflow_run:
+    workflows: ["Build PR preview"]
+    types:
+      - completed
+
+permissions:
+  contents: write        # push to gh-pages
+  pull-requests: write   # post the preview comment
+  actions: read          # download the artifact from the build run
+
+# Serialize all writes to gh-pages (deploys + cleanups) so concurrent runs
+# don't race on the same branch.
+concurrency:
+  group: preview-gh-pages
+
+jobs:
+  deploy:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download preview artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pr-preview
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ runner.temp }}/preview
+
+      - name: Read PR number
+        id: pr
+        run: |
+          num=$(cat "${{ runner.temp }}/preview/pr-number.txt")
+          # Guard against anything that isn't a plain integer.
+          case "$num" in
+            ''|*[!0-9]*) echo "Invalid PR number: '$num'" >&2; exit 1 ;;
+          esac
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+
+      # Checkout to get an authenticated git remote we can push gh-pages with.
+      - uses: actions/checkout@v7
+
+      - name: Publish preview to gh-pages
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+          SRC: ${{ runner.temp }}/preview/public
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            git checkout -B gh-pages origin/gh-pages
+          else
+            git checkout --orphan gh-pages
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          target="pr-preview/pr-${PR}"
+          rm -rf "$target"
+          mkdir -p "$target"
+          cp -R "$SRC"/. "$target"/
+          touch .nojekyll
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "Deploy preview for PR #${PR}"
+
+          # Retry against concurrent updates to gh-pages.
+          for attempt in 1 2 3; do
+            if git push origin gh-pages; then
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt), rebasing on latest gh-pages..."
+            git fetch origin gh-pages
+            git rebase origin/gh-pages
+          done
+          echo "Failed to push gh-pages after retries." >&2
+          exit 1
+
+      - name: Comment preview URL on the PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          number: ${{ steps.pr.outputs.number }}
+          header: pr-preview
+          message: |
+            ### 🔎 Live preview ready
+
+            This PR has been deployed to a temporary preview site:
+
+            **https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/pr-${{ steps.pr.outputs.number }}/**
+
+            The preview updates on every push and is removed when the PR is closed.

@@ -1,0 +1,72 @@
+name: Cleanup PR preview
+
+# Stage 3 of the PR preview pipeline.
+#
+# Removes a PR's preview from gh-pages when the PR is closed or merged.
+#
+# Uses pull_request_target so it gets a write token even for fork PRs. This is
+# safe here because it never checks out or runs the PR's code -- it only deletes
+# a directory on the gh-pages branch keyed by the (trusted) PR number.
+
+on:
+  pull_request_target:
+    types:
+      - closed
+
+permissions:
+  contents: write        # push to gh-pages
+  pull-requests: write   # update the preview comment
+
+concurrency:
+  group: preview-gh-pages
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Remove preview from gh-pages
+        env:
+          PR: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          if ! git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            echo "No gh-pages branch; nothing to clean up."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages
+          git checkout -B gh-pages origin/gh-pages
+
+          target="pr-preview/pr-${PR}"
+          if [ ! -d "$target" ]; then
+            echo "No preview directory for PR #${PR}; nothing to remove."
+            exit 0
+          fi
+
+          git rm -rf "$target"
+          git commit -m "Remove preview for PR #${PR}"
+
+          for attempt in 1 2 3; do
+            if git push origin gh-pages; then
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt), rebasing on latest gh-pages..."
+            git fetch origin gh-pages
+            git rebase origin/gh-pages
+          done
+          echo "Failed to push gh-pages after retries." >&2
+          exit 1
+
+      - name: Update the preview comment
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          number: ${{ github.event.number }}
+          header: pr-preview
+          message: |
+            ### 🧹 Preview removed
+
+            The temporary preview for this PR has been torn down now that it is closed.
