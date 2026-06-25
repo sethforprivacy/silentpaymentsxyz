@@ -1,0 +1,56 @@
+name: Build PR preview
+
+# Stage 1 of the PR preview pipeline.
+#
+# Runs on the (untrusted) PR head with NO secrets and read-only access, so it is
+# safe for pull requests opened from forks. It only builds the Hugo site and
+# uploads it as an artifact. The trusted "Deploy PR preview" workflow picks that
+# artifact up afterwards via workflow_run and publishes it to GitHub Pages.
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-build-${{ github.event.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0          # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site with preview baseURL
+        run: |
+          hugo \
+            --destination ./public \
+            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.number }}/"
+
+      - name: Record PR number for the deploy stage
+        run: echo "${{ github.event.number }}" > pr-number.txt
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-preview
+          path: |
+            public/
+            pr-number.txt
+          retention-days: 1
+          if-no-files-found: error
