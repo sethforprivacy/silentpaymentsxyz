@@ -62,7 +62,7 @@ jobs:
           exit 1
 
       - name: Update the preview comment
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3.0.4
         with:
           number: ${{ github.event.number }}
           header: pr-preview
