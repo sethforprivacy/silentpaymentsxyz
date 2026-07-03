@@ -59,7 +59,7 @@ Applications that use Silent Payments for a specific purpose, with a built-in wa
 
 | Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
-| [Agora](https://agora.spot) | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
+| [Agora](https://agora.spot)[^5] | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 
 ## Experimental & proof-of-concept
 
@@ -74,3 +74,4 @@ Early proof-of-concept projects. Try with caution, not with meaningful funds.
     > This is an experimental project acting as a proof of concept for Silent Payments light wallets. Use at your own risk.
 [^3]: [BIP375](https://github.com/bitcoin/bips/blob/master/bip-0375.mediawiki) — Sending Silent Payments with PSBT. Defines the PSBT fields required for a hardware signer to participate in constructing a transaction that sends to a Silent Payment address.
 [^4]: [BIP376](https://github.com/bitcoin/bips/blob/master/bip-0376.mediawiki) — Spending Silent Payments with PSBT. Defines the PSBT fields required for a hardware signer to spend a previously received Silent Payment output.
+[^5]: Agora is a Bitcoin donation/crowdfunding platform with a built-in wallet. It runs as a browser-based hot wallet tied to your Nostr key (nsec). For anything beyond small amounts, transfer the funds to another wallet with a different seed for secure storage.
