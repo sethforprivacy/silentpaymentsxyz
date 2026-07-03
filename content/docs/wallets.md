@@ -27,7 +27,7 @@ I'll do my best to keep this page up to date, but if you see something that need
 | [Dana Wallet](https://danawallet.app) | [cygnet3/dana](https://github.com/cygnet3/dana) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 | [Nunchuk Wallet](https://nunchuk.io) | [nunchuk-io](https://github.com/nunchuk-io) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
 | [Silentium](https://app.silentium.dev) [^2] | [louisinger/silentium](https://github.com/louisinger/silentium) | {{< icon "check-green" >}} | {{< icon "warning" >}} | - | - | - |
-| [Sparrow Wallet](https://sparrowwallet.com/) | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | {{< icon "check-green" >}} | - |
+| [Sparrow Wallet](https://sparrowwallet.com/) | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | {{< icon "check-green" >}} | {{< icon "check-green" >}} |
 | [Unchained](https://www.unchained.com/) | [caravan-bitcoin/caravan](https://github.com/caravan-bitcoin/caravan/pull/496) | {{< icon "wip" >}} | {{< icon "x-red" >}} | - | {{< icon "wip" >}} | - |
 | [Wasabi Wallet](https://wasabiwallet.io/) | [WalletWasabi/WalletWasabi](https://github.com/WalletWasabi/WalletWasabi) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
 
