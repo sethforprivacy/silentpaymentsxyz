@@ -14,30 +14,60 @@ I'll do my best to keep this page up to date, but if you see something that need
   As Silent Payments are so new, please be cautious when testing new wallets with real funds!
 {{< /callout >}}
 
-## Software wallets
+## Wallets
 
-| Wallet | Github | Sending | Receiving | Privacy-preserving scanning[^1] | BIP375[^3] | BIP376[^4] |
+Bitcoin wallets with Silent Payments support, grouped by what you can do today: **send & receive**, **send-only**, and **in progress** where support is still landing.
+
+### Send & receive
+
+| Wallet | Source | Sending | Receiving | Privacy-preserving scanning[^1] | BIP375[^3] | BIP376[^4] |
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
-| [Agora](https://agora.spot) | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
-| [BitBox](https://bitbox.swiss/) | [BitBoxSwiss/bitbox-wallet-app](https://github.com/BitBoxSwiss/bitbox-wallet-app) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
-| [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/pull/32966) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "check-green" >}} | - | - |
 | [BlindBit Desktop](https://github.com/setavenger/blindbit-desktop/releases) | [setavenger/blindbit-desktop](https://github.com/setavenger/blindbit-desktop/) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
-| [BlueWallet](https://bluewallet.io/) | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet) | {{< icon "check-green" >}} | {{< icon "wip" >}} | - | - | - |
 | [Cake Wallet](https://cakewallet.com) | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 | [Dana Wallet](https://danawallet.app) | [cygnet3/dana](https://github.com/cygnet3/dana) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
-| [Nunchuk Wallet](https://nunchuk.io) | [nunchuk-io](https://github.com/nunchuk-io) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
-| [Silentium](https://app.silentium.dev) [^2] | [louisinger/silentium](https://github.com/louisinger/silentium) | {{< icon "check-green" >}} | {{< icon "warning" >}} | - | - | - |
 | [Sparrow Wallet](https://sparrowwallet.com/) | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | {{< icon "check-green" >}} | {{< icon "check-green" >}} |
-| [Unchained](https://www.unchained.com/) | [caravan-bitcoin/caravan](https://github.com/caravan-bitcoin/caravan/pull/496) | {{< icon "wip" >}} | {{< icon "x-red" >}} | - | {{< icon "wip" >}} | - |
+
+### Send-only
+
+| Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
+| ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
+| [BitBox](https://bitbox.swiss/) | [BitBoxSwiss/bitbox-wallet-app](https://github.com/BitBoxSwiss/bitbox-wallet-app) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
+| [BlueWallet](https://bluewallet.io/) | [bluewallet/bluewallet](https://github.com/bluewallet/bluewallet) | {{< icon "check-green" >}} | {{< icon "wip" >}} | - | - | - |
+| [Nunchuk Wallet](https://nunchuk.io) | [nunchuk-io](https://github.com/nunchuk-io) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
 | [Wasabi Wallet](https://wasabiwallet.io/) | [WalletWasabi/WalletWasabi](https://github.com/WalletWasabi/WalletWasabi) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | - | - | - |
 
-## Hardware wallets
+### In progress
 
-| Wallet | Github | Sending | BIP375 | BIP376 |
+| Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
+| ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
+| [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/pull/32966) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "check-green" >}} | - | - |
+| [Unchained](https://www.unchained.com/) | [caravan-bitcoin/caravan](https://github.com/caravan-bitcoin/caravan/pull/496) | {{< icon "wip" >}} | {{< icon "x-red" >}} | - | {{< icon "wip" >}} | - |
+
+## Hardware signers
+
+Signing devices for Silent Payment transactions (BIP375 to send, BIP376 to spend). They don't scan or hold funds themselves, so pair them with a software wallet above.
+
+| Wallet | Source | Sending | BIP375 | BIP376 |
 | ------ | ------ | :-----: | :----: | :----: |
 | [BitBox02](https://bitbox.swiss/) | [BitBoxSwiss/bitbox02-firmware](https://github.com/BitBoxSwiss/bitbox02-firmware) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
 | [Coldcard](https://coldcard.com/) | [Coldcard/firmware](https://github.com/Coldcard/firmware) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "wip" >}} |
 | [SeedSigner](https://seedsigner.com/) | [SeedSigner/seedsigner](https://github.com/SeedSigner/seedsigner) | {{< icon "wip" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
+
+## Applications
+
+Applications that use Silent Payments for a specific purpose, with a built-in wallet.
+
+| Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
+| ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
+| [Agora](https://agora.spot) | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
+
+## Experimental & proof-of-concept
+
+Early proof-of-concept projects. Try with caution, not with meaningful funds.
+
+| Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
+| ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
+| [Silentium](https://app.silentium.dev)[^2] | [louisinger/silentium](https://github.com/louisinger/silentium) | {{< icon "check-green" >}} | {{< icon "warning" >}} | - | - | - |
 
 [^1]: "Privacy preserving scanning" here denotes an architecture where no output information is revealed to the back-end server. While this is the only possible back-end approach for now, it's very likely we will see future approaches that give the view key over to a back-end server to allow background sync, while sacrificing privacy of Silent Payments outputs to that third-party server. This field is a way that we can denote that in the future as-necessary.
 [^2]: Silentium is a proof-of-concept and should be used with caution! From the developer:
