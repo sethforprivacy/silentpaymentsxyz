@@ -153,3 +153,29 @@ As of 05/18/2024, the total payout for this bounty is **0.011 BTC**.
   - This existing crate could be a useful starting point, but is not required to be used for this bounty.
 
 {{% /details %}}
+
+{{% details title="Implement Silent Payments in LWK (Liquid Wallet Kit) — **0.06 BTC**" closed="true" %}}
+
+Sponsored by JAN3, these three open bounties add Silent Payments support (with confidential transactions) to the LWK library on the Liquid Network. Any wallet or other consumer of LWK would then be able to send to and receive at Silent Payment addresses on Liquid.
+
+### Bounties
+
+| Bounty | Amount | Completion requirement |
+| --- | --- | --- |
+| Silent Payments Spec for LWK | 0.01 BTC | A written spec for how Silent Payments send and receive with confidential transactions can be implemented in LWK, following the Tweak Server model, approved and merged as an ELIP proposal. |
+| Implement Silent Payments Send in LWK | 0.02 BTC | A wallet or other LWK consumer can use LWK APIs to send a transaction to a Silent Payment address on Liquid, following the spec above. |
+| Implement Silent Payments Receive in LWK | 0.03 BTC | A wallet or other LWK consumer can generate and receive payments to Silent Payment addresses on Liquid, following the spec above. |
+
+### Total payout
+
+The total payout across all three bounties is **0.06 BTC**. All payouts remain discretionary at JAN3's sole discretion.
+
+### Relevant links
+
+- [JAN3 bounties page](https://jan3.com/bounties?v=1)
+- [LWK (Liquid Wallet Kit) Github](https://github.com/Blockstream/lwk)
+- [BIP0352 index server specification](https://github.com/silent-payments/BIP0352-index-server-specification)
+- [Elements Improvement Proposals (ELIPs)](https://github.com/ElementsProject/ELIPs)
+- [Existing development resources and libraries](../developers)
+
+{{% /details %}}
