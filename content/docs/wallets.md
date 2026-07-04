@@ -24,7 +24,7 @@ Bitcoin wallets with Silent Payments support, grouped by what you can do today: 
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
 | [BlindBit Desktop](https://github.com/setavenger/blindbit-desktop/releases) | [setavenger/blindbit-desktop](https://github.com/setavenger/blindbit-desktop/) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 | [Cake Wallet](https://cakewallet.com) | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
-| [Dana Wallet](https://danawallet.app) | [cygnet3/dana](https://github.com/cygnet3/dana) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
+| [Dana Wallet](https://danawallet.app) | [cygnet3/dana](https://github.com/cygnet3/dana) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "wip" >}} | {{< icon "wip" >}} |
 | [Sparrow Wallet](https://sparrowwallet.com/) | [sparrowwallet/sparrow](https://github.com/sparrowwallet/sparrow) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | {{< icon "check-green" >}} | {{< icon "check-green" >}} |
 
 ### Send-only
@@ -51,7 +51,8 @@ Signing devices for Silent Payment transactions (BIP375 to send, BIP376 to spend
 | ------ | ------ | :-----: | :----: | :----: |
 | [BitBox02](https://bitbox.swiss/) | [BitBoxSwiss/bitbox02-firmware](https://github.com/BitBoxSwiss/bitbox02-firmware) | {{< icon "check-green" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
 | [Coldcard](https://coldcard.com/) | [Coldcard/firmware](https://github.com/Coldcard/firmware) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "wip" >}} |
-| [SeedSigner](https://seedsigner.com/) | [SeedSigner/seedsigner](https://github.com/SeedSigner/seedsigner) | {{< icon "wip" >}} | {{< icon "x-red" >}} | {{< icon "x-red" >}} |
+| [Krux](https://selfcustody.github.io/krux/) | [selfcustody/krux](https://github.com/selfcustody/krux) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "wip" >}} |
+| [SeedSigner](https://seedsigner.com/) | [SeedSigner/seedsigner](https://github.com/SeedSigner/seedsigner) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "wip" >}} |
 
 ## Applications
 
