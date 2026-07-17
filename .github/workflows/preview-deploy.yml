@@ -95,7 +95,7 @@ jobs:
           exit 1
 
       - name: Comment preview URL on the PR
-        uses: marocchino/sticky-pull-request-comment@v3.0.4
+        uses: marocchino/sticky-pull-request-comment@v3.0.5
         with:
           number: ${{ steps.pr.outputs.number }}
           header: pr-preview
