@@ -24,6 +24,10 @@ What a Silent Payment address looks like on-chain (i.e. any Taproot address):
 
 `bc1pftjlgdq0ufhq7qwd0atxhrjhlnpmc8v4x50tgytygzk5rz339u6qngunq4`
 
+{{< callout type="warning" >}}
+  Do not reuse or share the generated on-chain Taproot address (`bc1p...`) as a receive address. Only the Silent Payment address (`sp1...`) is reusable. Funds sent directly to a generated Taproot address may not be detected by Silent Payment wallet scanning.
+{{< /callout >}}
+
 {{< callout type="info" >}}
   Note that the addresses above are real-world examples, with the Taproot address actually being used in a payment to the above Silent Payment address.
 
