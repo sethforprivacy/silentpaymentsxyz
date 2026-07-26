@@ -7,7 +7,7 @@ summary: Silent Payments allow you to create a single, static address to share w
 Silent Payments allow you to create a single, static address to share with friends, use for donations, or post for tips *without sacrificing privacy*. When someone wants to send you a payment, they use the unique public key that is a part of your Silent Payment address, combine it with the public keys of the outputs they want to send and generate a unique, one-time address that looks on-chain just like any other Taproot address. The main advantages of Silent Payments are:
 
 - {{< icon "check" >}} Simpler user experience: users just need to worry about a single, static address instead of the hurdles of generating new addresses for every receive.
-- {{< icon "check" >}} Better receiver privacy: address re-use with Silent Payments is impossible, as no two senders can generate the same on-chain address.
+- {{< icon "check" >}} Better receiver privacy: payments made to a Silent Payment address avoid on-chain address reuse, as senders derive fresh Taproot outputs.
 - {{< icon "check" >}} Better sender privacy: receivers have no way of connecting sends from the same receiver together, providing better privacy for even the sender.
 - {{< icon "check" >}} No server required: anyone with a wallet supporting Silent Payments can receive funds without address reuse, without communication, and without running complex infrastructure.
 
