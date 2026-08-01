@@ -12,4 +12,6 @@ RUN rm /etc/nginx/conf.d/default.conf
 # Copy custom nginx.conf file
 COPY nginx.conf /etc/nginx/nginx.conf
 
+HEALTHCHECK CMD wget -qO- http://localhost:80 || exit 1
+
 EXPOSE 80
