@@ -32,7 +32,7 @@ jobs:
           extended: true
 
       - name: Cache Hugo resources
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: /home/runner/.cache/hugo_cache
           key: hugo-cache-${{ hashFiles('hugo.yaml') }}
