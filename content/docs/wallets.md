@@ -61,6 +61,7 @@ Applications that use Silent Payments for a specific purpose, with a built-in wa
 | Wallet | Source | Sending | Receiving | Privacy-preserving scanning | BIP375 | BIP376 |
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
 | [Agora](https://agora.spot)[^5] | [soapbox-pub/agora](https://gitlab.com/soapbox-pub/agora) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
+| [Tacit](https://tacit.finance)[^6] | [z0r0z/tacit](https://github.com/z0r0z/tacit) | {{< icon "check-green" >}} | {{< icon "check-green" >}} | {{< icon "check-green" >}} | - | - |
 
 ## Experimental & proof-of-concept
 
@@ -76,3 +77,4 @@ Early proof-of-concept projects. Try with caution, not with meaningful funds.
 [^3]: [BIP375](https://github.com/bitcoin/bips/blob/master/bip-0375.mediawiki) — Sending Silent Payments with PSBT. Defines the PSBT fields required for a hardware signer to participate in constructing a transaction that sends to a Silent Payment address.
 [^4]: [BIP376](https://github.com/bitcoin/bips/blob/master/bip-0376.mediawiki) — Spending Silent Payments with PSBT. Defines the PSBT fields required for a hardware signer to spend a previously received Silent Payment output.
 [^5]: Agora is a Bitcoin donation/crowdfunding platform with a built-in wallet. It runs as a browser-based hot wallet tied to your Nostr key (nsec). For anything beyond small amounts, transfer the funds to another wallet with a different seed for secure storage.
+[^6]: Tacit is a browser-based confidential DeFi dApp with an integrated Bitcoin wallet that can send to and receive at Silent Payment addresses (`sp1q...`). Its signing key lives only in your browser — export and back it up before holding any value, since clearing browser storage loses it.
