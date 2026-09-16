@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "docker:enableMajor",
+    "helpers:pinGitHubActionDigests",
+    "mergeConfidence:all-badges",
+    ":disableRateLimiting"
+  ],
+  "rebaseWhen": "conflicted",
+  "automergeType": "pr",
+  "packageRules": [
+    {
+      "description": "Batch and auto-merge low-risk GitHub Actions and Docker updates once checks pass",
+      "matchManagers": [
+        "github-actions",
+        "docker"
+      ],
+      "matchUpdateTypes": [
+        "digest",
+        "pinDigest",
+        "patch",
+        "minor",
+        "pin"
+      ],
+      "groupName": "low-risk dependency updates",
+      "automerge": true
+    }
+  ]
+}
