@@ -58,3 +58,4 @@ Want to do a deeper dive into Silent Payments? Read on below for more resources:
 - ["Making sense of stealth addresses" - Foundation.xyz](https://foundation.xyz/2023/02/making-sense-of-stealth-addresses/)
 - [Silent Payments - Bitcoin Optech](https://bitcoinops.org/en/topics/silent-payments/)
 - ["Silent Payments: What Are They & How Do They Work?" - Athena Alpha](https://www.athena-alpha.com/silent-payments/)
+- ["Silent Payments" - LearnBitcoin glossary](https://www.learnbitcoin.com/glossary/silent-payments)
