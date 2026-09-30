@@ -3,30 +3,29 @@ title: Silent Payments
 layout: hextra-home
 ---
 
-<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-badge link="/docs/wallets" >}}
+  <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
+  <span>See which wallets support Silent Payments</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+
+<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Privacy-preserving&nbsp;<br class="sm:hx-block hx-hidden" />
-  static addresses for Bitcoin.
+  Privacy-preserving <br class="hx:sm:block hx:hidden" />static addresses for Bitcoin.
 {{< /hextra/hero-headline >}}
 </div>
 
-<br class="sm:hx-block hx-hidden" />
-
-<div class="hx-mb-12">
+<div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
   Silent Payments make receiving Bitcoin easier than ever while preserving your privacy.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<br class="sm:hx-block hx-hidden" />
-
-<div class="hx-mb-6">
+<div class="hx:mb-6">
 {{< hextra/hero-button text="Learn more" link="docs" >}}
 </div>
 
-<div class="hx-mt-6"></div>
-
-<br class="sm:hx-block hx-hidden" />
+<div class="hx:mt-6"></div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -39,7 +38,7 @@ layout: hextra-home
     link="docs"
     icon="thumb-up"
     title="Easy to use"
-    subtitle="One static payment address is all you need. Post it on social media, put it in your Github repo for donations, or share it with friends and family to simplify payments."
+    subtitle="One static payment address is all you need. Post it on social media, put it in your GitHub repo for donations, or share it with friends and family to simplify payments."
   >}}
   {{< hextra/feature-card
     link="docs"
@@ -50,8 +49,8 @@ layout: hextra-home
   {{< hextra/feature-card
     link="docs"
     icon="ban"
-    title="No server required"
-    subtitle="Silent Payments remove the need for complicated infrastructure to handle donations and payments privately. Simply post a static address and call it a day."
+    title="No payment server required"
+    subtitle="Silent Payments remove the need for complicated infrastructure like BTCPay Server to handle donations and payments privately. Simply post a static address and call it a day."
   >}}
   {{< hextra/feature-card
     link="docs/wallets"
