@@ -1,5 +1,5 @@
 baseURL: https://silentpayments.xyz/
-languageCode: en-us
+locale: en-us
 title: Silent Payments
 theme: hextra
 
@@ -14,7 +14,7 @@ outputs:
 defaultContentLanguage: en
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
     title: Silent Payments
 

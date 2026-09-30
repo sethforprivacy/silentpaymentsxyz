@@ -2,7 +2,7 @@
 title: Comparing Proposals
 summary: Explore the following sections to learn how Silent Payments compares to other reusable payment code proposals.
 weight: 10
-prev: /docs/developers
+prev: /docs/bounties
 next: /docs/comparing-proposals/bip47
 sidebar:
   open: false

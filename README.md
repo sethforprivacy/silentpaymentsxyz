@@ -32,7 +32,7 @@ If it's a simple text change you may not need to do any of this, and can just ed
 
 ## Credits
 
-All of the credit for Silent Payments as a concept goes to [Ruben Somsen](https://twitter.com/SomsenRuben) and [Josi Bake](https://twitter.com/josibake), two fantastic devs working on Bitcoin.
+All of the credit for Silent Payments as a concept goes to [Ruben Somsen](https://x.com/SomsenRuben) and [josibake](https://github.com/josibake), two fantastic devs working on Bitcoin, along with [Sebastian Falbesoner](https://github.com/theStack), who co-authored [BIP 352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).
 
 If you'd like to support their work you can donate to their Silent Payment addresses below:
 
@@ -40,6 +40,6 @@ Ruben Somsen:
 
 `TBD`
 
-Josi Bake:
+josibake:
 
 `sp1qqvvnsd3xnjpmx8hnn2ua0e9sllm34t9jydf8qfesgc7nhdxgzksjwqlrxx37nfzsg6rure5vwa92fksd6f5a6rk05kr07twhd55u3ahquy2v7t6s`
