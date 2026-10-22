@@ -1,5 +1,5 @@
 # nginx:alpine (multi-arch manifest digest pinned)
-FROM nginx:alpine@sha256:060849a174666c53439dc7cecbf8f67e225c7cbfb1a44ca97915d9a172a81e6d
+FROM nginx:alpine@sha256:a3554c0d0b48177b1413c26e01f695334428020d9df01243fbae3e11cfd17417
 
 # Upgrade base image
 RUN set -ex && apk --update --no-cache upgrade
