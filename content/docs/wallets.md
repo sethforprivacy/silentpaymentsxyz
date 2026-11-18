@@ -44,6 +44,7 @@ Bitcoin wallets with Silent Payments support, grouped by what you can do today: 
 | ------ | ------ | :-----: | :-------: | :-----------------------------: | :--------: | :--------: |
 | [Bitcoin Core](https://bitcoincore.org/)[^core] | [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/issues/28536) | {{< icon "wip" >}} | {{< icon "wip" >}} | {{< icon "check-green" >}} | - | - |
 | [Caravan](https://caravanmultisig.com/) | [caravan-bitcoin/caravan](https://github.com/caravan-bitcoin/caravan/pull/496) | {{< icon "wip" >}} | {{< icon "x-red" >}} | - | {{< icon "wip" >}} | - |
+| [Frostsnap](https://frostsnap.com/)[^frostsnap] | [frostsnap/frostsnap](https://github.com/frostsnap/frostsnap/pull/657) | {{< icon "wip" >}} | {{< icon "x-red" >}} | - | - | - |
 
 ## Hardware signers
 
@@ -84,6 +85,7 @@ Early proof-of-concept projects. Try with caution, not with meaningful funds.
 [^sparrow]: Sparrow receives Silent Payments by sending your scan private key to a [Frigate](https://github.com/sparrowwallet/frigate) server, which does the scanning for you. The key is only held in memory for your session, and outside observers still can't link your payments, but the server operator can see every payment you receive while you're connected (much like an Electrum server sees your normal transactions). By default Sparrow uses a public Frigate server, so [run your own](/docs/scanning#running-your-own) if you want this to be private.
 [^wasabi]: Wasabi supports sending to Silent Payment addresses from software wallets only, as it's disabled for hardware wallet accounts.
 [^core]: The base BIP352 code was merged into Bitcoin Core's master branch in September 2026, but sending and receiving are still in open PRs and haven't shipped in a release yet. Follow along in the [tracking issue](https://github.com/bitcoin/bitcoin/issues/28536).
+[^frostsnap]: Frostsnap is a FROST threshold wallet, so no single device holds the key needed to send to a Silent Payment address. A [community pull request](https://github.com/frostsnap/frostsnap/pull/657) has each device compute its share of that step, with a proof, once when you add a recipient as a trusted contact. Later sends to that contact are then normal signing with devices plugged in over USB. It hasn't been adopted by the Frostsnap team yet.
 [^bitbox02]: The BitBox02 computes and verifies the Silent Payment output itself (firmware 9.21.0+), but does so over BitBox's own protocol with the BitBoxApp rather than with BIP375 PSBTs.
 [^coldcard]: Coldcard support is a community pull request that hasn't been adopted by Coinkite yet.
 [^krux]: Krux has a new maintainer, announced in [release v26.09.0](https://github.com/selfcustody/krux/releases/tag/v26.09.0). Silent Payments support remains under development, with implementation work tracked in [embit PR #145](https://github.com/diybitcoinhardware/embit/pull/145).
