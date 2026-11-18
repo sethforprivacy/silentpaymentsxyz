@@ -39,7 +39,7 @@ A tweak server still sees your IP address and when you sync, just like any other
 
 ## Remote scanning servers
 
-The newest approach flips this around: instead of downloading data and scanning yourself, your wallet sends your **scan private key** (plus your spend *public* key) to a server that does all of the scanning for you. [Frigate](https://github.com/sparrowwallet/frigate), built by Craig Raw of Sparrow Wallet, is the main implementation today, and it's what Sparrow uses to receive Silent Payments.
+The newest approach flips this around: instead of downloading data and scanning yourself, your wallet sends your **scan private key** (plus your spend *public* key) to a server that does all of the scanning for you. [Frigate](https://github.com/sparrowwallet/frigate), built by Craig Raw of Sparrow Wallet, is the main implementation today, and it's what Sparrow uses to receive Silent Payments. Out of the box, Sparrow connects Silent Payment wallets to `frigate.2140.dev`, a public Frigate server run by [2140](https://2140.dev).
 
 This makes a huge difference to user experience. Frigate scans on the server with optional GPU acceleration, getting through a full year of transactions in a few minutes on a regular CPU and in [a few seconds on a modern GPU](https://github.com/sparrowwallet/frigate#performance). Your wallet only downloads the transactions that are actually yours, restores feel like a normal Electrum wallet, and you can see incoming payments while they're still in the mempool.
 
