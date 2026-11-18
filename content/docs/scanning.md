@@ -70,7 +70,7 @@ To run Frigate you'll need:
 - ~18 GB of disk for Frigate's index, on top of your node
 - 16 GB of RAM is comfortable (8 GB works with some tuning), and a GPU is optional for a personal server
 
-Once it's done syncing, point Sparrow at your own server instead of a public one and you're off to the races. If you prefer Docker, I maintain [a simple Docker image for Frigate](https://github.com/sethforprivacy/frigate-docker), and the [Frigate README](https://github.com/sparrowwallet/frigate#deployment) covers everything else. Tweak servers like BlindBit Oracle are open source and can be self-hosted as well, if your wallet lets you pick its server.
+Once it's done syncing, point Sparrow at your own server instead of a public one and you're off to the races. If you prefer Docker, I maintain [a simple Docker image for Frigate](https://github.com/sethforprivacy/frigate-docker), and the [Frigate README](https://github.com/sparrowwallet/frigate#deployment) covers everything else. If you run StartOS, there's a [Frigate package](https://github.com/Start9-Community/frigate-startos) in the community registry, and a [companion package](https://github.com/paulscode/frigate-sha256-companion-startos) that runs Frigate on a pruned node without `txindex`. Tweak servers like BlindBit Oracle are open source and can be self-hosted as well, if your wallet lets you pick its server.
 
 ## Which should you use?
 
