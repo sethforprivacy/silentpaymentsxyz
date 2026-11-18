@@ -25,7 +25,7 @@ Everything on this page is about what a *server* can learn. No matter which appr
 
 The gold standard is the same as it is for all of Bitcoin: run your own node and scan locally. Your node already has every transaction, so it can do the math for each one without asking anyone for anything, and nobody else learns a thing.
 
-Thankfully this is getting much easier. A Silent Payments module [shipped in libsecp256k1](https://github.com/bitcoin-core/secp256k1/pull/1765) in 2026 and the core BIP352 code has been merged into Bitcoin Core, with [sending and receiving still being worked on](https://github.com/bitcoin/bitcoin/issues/28536).
+Thankfully this is getting much easier. A Silent Payments module [shipped in libsecp256k1](https://github.com/bitcoin-core/secp256k1/pull/1765) in 2026 and the core BIP352 code has been merged into Bitcoin Core, with [sending and receiving still being worked on](https://github.com/bitcoin/bitcoin/issues/28536). In the meantime, [rbitcoin](https://github.com/rbitcoin-org/rbitcoin) is an experimental full node that can already scan for Cake Wallet, Dana and Sparrow.
 
 ## Tweak servers
 
@@ -70,7 +70,7 @@ To run Frigate you'll need:
 - ~18 GB of disk for Frigate's index, on top of your node
 - 16 GB of RAM is comfortable (8 GB works with some tuning), and a GPU is optional for a personal server
 
-Once it's done syncing, point Sparrow at your own server instead of a public one and you're off to the races. If you prefer Docker, I maintain [a simple Docker image for Frigate](https://github.com/sethforprivacy/frigate-docker), and the [Frigate README](https://github.com/sparrowwallet/frigate#deployment) covers everything else. If you run StartOS, there's a [Frigate package](https://github.com/Start9-Community/frigate-startos) in the community registry, and a [companion package](https://github.com/paulscode/frigate-sha256-companion-startos) that runs Frigate on a pruned node without `txindex`. Tweak servers like BlindBit Oracle are open source and can be self-hosted as well, if your wallet lets you pick its server.
+Once it's done syncing, point Sparrow at your own server instead of a public one and you're off to the races. If you prefer Docker, I maintain [a simple Docker image for Frigate](https://github.com/sethforprivacy/frigate-docker), and the [Frigate README](https://github.com/sparrowwallet/frigate#deployment) covers everything else. If you run StartOS, there's a [Frigate package](https://github.com/Start9-Community/frigate-startos) in the community registry, and a [companion package](https://github.com/paulscode/frigate-sha256-companion-startos) that runs Frigate on a pruned node without `txindex`. If you'd rather run one program than three, [rbitcoin](https://github.com/rbitcoin-org/rbitcoin) is an experimental full node that answers Sparrow's Frigate requests itself, with no separate Electrum server or Frigate install. Tweak servers like BlindBit Oracle are open source and can be self-hosted as well, if your wallet lets you pick its server.
 
 ## Which should you use?
 
