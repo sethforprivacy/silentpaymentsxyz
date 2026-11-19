@@ -1,6 +1,6 @@
 # nginx:alpine (multi-arch manifest digest pinned)
 # resolved: nginx 1.31.9-alpine (nginx2root fix; CVE-2026-123007 et al.)
-FROM nginx:alpine@sha256:1bb9390209f866c8c0bf76ba89d3f33a3f6cd6a0e6c1b457af7ee763b9579f41
+FROM nginx:alpine@sha256:0563c36f94a6d3ec3584161b77859f740f7e20b4853f52c796a864ce6908e8ea
 
 # Upgrade base image
 RUN set -ex && apk --update --no-cache upgrade
